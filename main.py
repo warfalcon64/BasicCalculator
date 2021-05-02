@@ -4,7 +4,11 @@ from kivy.app import App
 
 kivy.require('2.0.0')
 
-from kivy.config import GridLayout
+# Import for buttons
+from kivy.uix.gridLayout import GridLayout
+
+# For size of window
+from kivy.config import Config
 
 #Set size to resizeable
 Config.set('graphics', 'resizable', 1)
