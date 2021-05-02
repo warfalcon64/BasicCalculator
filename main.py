@@ -5,7 +5,7 @@ from kivy.app import App
 kivy.require('2.0.0')
 
 # Import for buttons
-from kivy.uix.gridLayout import GridLayout
+from kivy.uix.gridlayout import GridLayout
 
 # For size of window
 from kivy.config import Config
