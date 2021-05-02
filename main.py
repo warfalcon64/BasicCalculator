@@ -13,9 +13,6 @@ from kivy.config import Config
 #Set size to resizeable
 Config.set('graphics', 'resizable', 1)
 
-calcApp = CalculatorApp()
-calcApp.run()
-
 #Making layout class
 class CalcGridLayout(GridLayout):
 
@@ -34,3 +31,6 @@ class CalculatorApp(App):
 
     def build(self):
         return CalcGridLayout()
+
+calcApp = CalculatorApp()
+calcApp.run()
